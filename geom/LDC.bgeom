@@ -1,0 +1,79 @@
+01 LiC Detector-Toy (barrel)
+02 LDC-basic-Japan
+03 Version:                     120208
+04 Vertex Detector (VTX)
+05
+06 Number of layers             :   6
+07 Description (optional)       : |-Beamt.-|----------Vertex detector------------|
+08 Names of the layers (opt.)   :   XBT,    VTX1,   VTX2,   VTX3,   VTX4,   VTX5
+09 Radii [mm]                   :   14,     16,     26,     37,     48,     60,
+10 Upper limit in z [mm]        :   3000,   50,     120,    120,    120,    120
+11 Lower limit in z [mm]        :  -3000,  -50,    -120,   -120,   -120,   -120
+12 Efficiency RPhi              :   0,      0.95,   0.95,   0.95,   0.95,   0.95
+13 Efficiency 2nd coord. (eg. z):  -1
+14 Stereo angle alpha [Rad]     :   pi/2
+15 Thickness [rad. lengths]     :   0.0025, 0.0014, 0.0014, 0.0014, 0.0014, 0.0014
+16 error distribution           :   1
+17 0 normal-sigma(RPhi) [1e-6m] :
+18          sigma(z)    [1e-6m] :
+19 1 uniform-d(RPhi) [1e-6m]    :   24
+20           d(z)    [1e-6m]    :   24
+21
+22 Silicon Inner Tracker (SIT)
+23 
+24 Number of layers             :   3
+25 Description (optional)       : |--Inner tracker--|TPC inner wall|
+26 Names of the layers (opt.)   :   SIT1,    SIT2,    XTPCW
+27 Radii [mm]                   :   160,     270,     300
+28 Upper limit in z [mm]        :   380,     660,     2160
+29 Lower limit in z [mm]        :  -380,    -660,    -2160
+30 Efficiency RPhi              :   0.95,    0.95,     0
+31 Efficiency 2nd coord. (eg. z):   0.95,    0.95,    -1
+32 Stereo angle alpha [Rad]     :   pi/2
+33 Thickness [rad. lengths]     :   0.005,   0.005,    0.0116
+34 error distribution           :   1
+35 0 normal-sigma(RPhi) [1e-6m] :	
+36          sigma(z)    [1e-6m] :	
+37 1 uniform-d(RPhi) [1e-6m]    :   35
+38           d(z)    [1e-6m]    :   35
+39
+40 Time Projection Chamber (TPC)
+41 sigma^2=sigma0^2+sigma1^2*sin(beta)^2+Cdiff^2*6mm/h*sin(theta)*Ldrift[m]
+42 Number of layers             :   196
+43 Radii [mm]                   :   300,1580
+44 Upper limit in z [mm]        :   2160
+45 Lower limit in z [mm]        :  -2160
+46 Efficiency RPhi              :   0.999
+47 Efficiency z                 :   0.999
+48 Thickness [rad. lengths]     :   0.0000125
+49 sigma0(RPhi) [1e-6m]         :   50
+50 sigma1(RPhi) [1e-6m]         :   900
+51 Cdiff(RPhi)  [1e-6m/sqrt(m)] :   53
+52 sigma0(z)    [1e-6m]         :   15
+53 sigma1(z)    [1e-6m]         :   0
+54 Cdiff(z)     [1e-6m/sqrt(m)] :   580
+55
+56 Silicon External Tracker (SET)
+57
+58 Number of layers             :   3
+59 Description (optional)       : |TPC outer wall|-External Tracker-|
+60 Names of the layers (opt.)   :     XTPCW2,        SET1,   SET2
+61 Radii [mm]                   :     1580,          1600,   1610
+62 Upper limit in z [mm]        :     2160,          2500,   2500
+63 Lower limit in z [mm]        :    -2160,         -2500,  -2500
+64 Efficiency RPhi              :     0,             0.95,   0.95
+65 Efficiency 2nd coord. (eg. z):    -1,             0.95,   0.95
+66 Stereo angle alpha [Rad]     :     pi/2
+67 Thickness [rad. lengths]     :     0.0151         0.0065, 0.0065
+68 error distribution           :     1
+69 0 normal-sigma(RPhi) [1e-6m] :
+70          sigma(z)    [1e-6m] :
+71 1 uniform-d(RPhi) [1e-6m]    :     50
+72           d(z)    [1e-6m]    :     50
+73
+74 Magnetic field and beam spot
+75 
+76 Solenoid magnetic field [T]  :   4
+77 Range in x [mm]              :  -0.0021      0.0021
+78 Range in y [mm]              :  -1e-05       1e-05
+79 Range in z [mm]              :  -1.04        1.04

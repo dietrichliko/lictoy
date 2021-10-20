@@ -1,0 +1,182 @@
+-----------------------------------------------------------------
+-------------------   SIMULATION PARAMETERS   -------------------
+-----------------------------------------------------------------
+Pt:[Gev]    [ 100.0000 100.0000 ]
+phi:[rad]   [   0.0000 360.0000 ]
+Theta:[rad] [  90.0000  90.0000 ]
+x:[mm]      [  -0.0000   0.0000 ]
+y:[mm]      [  -0.0000   0.0000 ]
+z:[mm]      [  -0.0000   0.0000 ]
+
+Magnetic Field Bz:   	   3.5000  [T]
+Mass of the particles	   0.1050  [GeV]
+	(plays only a role in multiple scattering =>
+	zero mass means all particles are treated relativisticly!)
+
+Flags:
+Symmetry in Theta         : off
+Use absolute momentum     : off
+Scale down TPC by factor 5: on
+Multiple scattering       : on
+Measurement errors        : on
+Display bad tracks        : off
+Chi2                      : off
+
+Barrel geometry:  geom/LDCPrime-TPC.bgeom
+Forward geometry: geom/LDCprime-Mokka.fgeom
+-----------------------------------------------------------------
+
+Number of events:      		 1
+Number of tracks/event:		 100
+	barrel region:        	 100
+	forward region:       	 0
+	rear region:          	 0
+	intermediate region:  	 0
+
+-----------------------------------------------------------------
+-------------------------    RESULTS   --------------------------
+-----------------------------------------------------------------
+100 out of 100 tracks are used for test statistics
+
+Standardized residuals
+      Phi            z          theta        beta       kappa
+mean: -0.062778    0.019285     0.06484    0.063141   -0.047192
+std:  0.9913      1.1161      1.1166     0.99187        1.02
+
+Pulls of innermost hit
+      Barrel tracks  Fwd/Rear tracks  -----Intermediate tracks-----
+       RPhi    z       u       v       RPhi    z       u       v
+mean: -0.10   -0.09   +0.00   +0.00   +0.00   +0.00   +0.00   +0.00   
+std:  +1.13   +0.94   +0.00   +0.00   +0.00   +0.00   +0.00   +0.00   
+
+R.M.S. values of the residuals and momenta [mu] and [mrad] resp. 
+      RPhi          z      theta        phi     dpt/pt   dpt/pt^2 
+  42.71546  548.79905    0.49612    0.09424    0.00842    0.00008  
+
+Impact paramters [mu] 
+          2d    3d (abs) 
+mean:   2.8061 463.0969
+std:   44.3905 313.9346
+
+-----------------------------------------------------------------
+-------------------   SIMULATION PARAMETERS   -------------------
+-----------------------------------------------------------------
+Pt:[Gev]    [ 100.0000 100.0000 ]
+phi:[rad]   [   0.0000 360.0000 ]
+Theta:[rad] [  90.0000  90.0000 ]
+x:[mm]      [  -0.0000   0.0000 ]
+y:[mm]      [  -0.0000   0.0000 ]
+z:[mm]      [  -0.0000   0.0000 ]
+
+Magnetic Field Bz:   	   3.5000  [T]
+Mass of the particles	   0.1050  [GeV]
+	(plays only a role in multiple scattering =>
+	zero mass means all particles are treated relativisticly!)
+
+Flags:
+Symmetry in Theta         : off
+Use absolute momentum     : off
+Scale down TPC by factor 5: on
+Multiple scattering       : on
+Measurement errors        : on
+Display bad tracks        : off
+Chi2                      : off
+
+Barrel geometry:  geom/LDCPrime-TPC-SIT.bgeom
+Forward geometry: geom/LDCprime-Mokka.fgeom
+-----------------------------------------------------------------
+
+Number of events:      		 1
+Number of tracks/event:		 100
+	barrel region:        	 100
+	forward region:       	 0
+	rear region:          	 0
+	intermediate region:  	 0
+
+-----------------------------------------------------------------
+-------------------------    RESULTS   --------------------------
+-----------------------------------------------------------------
+100 out of 100 tracks are used for test statistics
+
+Standardized residuals
+      Phi            z          theta        beta       kappa
+mean: -0.14477     0.10888    0.084075     0.14466   -0.063537
+std:  0.95613     0.91288     0.89402     0.95602      0.9576
+
+Pulls of innermost hit
+      Barrel tracks  Fwd/Rear tracks  -----Intermediate tracks-----
+       RPhi    z       u       v       RPhi    z       u       v
+mean: +0.09   +0.10   +0.00   +0.00   +0.00   +0.00   +0.00   +0.00   
+std:  +0.86   +0.95   +0.00   +0.00   +0.00   +0.00   +0.00   +0.00   
+
+R.M.S. values of the residuals and momenta [mu] and [mrad] resp. 
+      RPhi          z      theta        phi     dpt/pt   dpt/pt^2 
+  12.55626   23.89006    0.11126    0.04455    0.00451    0.00005  
+
+Impact paramters [mu] 
+          2d    3d (abs) 
+mean:   2.2249  23.6967
+std:   13.0645  16.4910
+
+-----------------------------------------------------------------
+-------------------   SIMULATION PARAMETERS   -------------------
+-----------------------------------------------------------------
+Pt:[Gev]    [ 100.0000 100.0000 ]
+phi:[rad]   [   0.0000 360.0000 ]
+Theta:[rad] [  90.0000  90.0000 ]
+x:[mm]      [  -0.0000   0.0000 ]
+y:[mm]      [  -0.0000   0.0000 ]
+z:[mm]      [  -0.0000   0.0000 ]
+
+Magnetic Field Bz:   	   3.5000  [T]
+Mass of the particles	   0.1050  [GeV]
+	(plays only a role in multiple scattering =>
+	zero mass means all particles are treated relativisticly!)
+
+Flags:
+Symmetry in Theta         : off
+Use absolute momentum     : off
+Scale down TPC by factor 5: on
+Multiple scattering       : on
+Measurement errors        : on
+Display bad tracks        : off
+Chi2                      : off
+
+Barrel geometry:  geom/LDCPrime-TPC-SIT-VTX.bgeom
+Forward geometry: geom/LDCprime-Mokka.fgeom
+-----------------------------------------------------------------
+
+Number of events:      		 1
+Number of tracks/event:		 100
+	barrel region:        	 100
+	forward region:       	 0
+	rear region:          	 0
+	intermediate region:  	 0
+
+-----------------------------------------------------------------
+-------------------------    RESULTS   --------------------------
+-----------------------------------------------------------------
+100 out of 100 tracks are used for test statistics
+
+Standardized residuals
+      Phi            z          theta        beta       kappa
+mean: 0.09649     0.14272     0.11212    -0.10774    0.033654
+std:  1.0904       1.045      1.0809      1.0827     0.97879
+
+Pulls of innermost hit
+      Barrel tracks  Fwd/Rear tracks  -----Intermediate tracks-----
+       RPhi    z       u       v       RPhi    z       u       v
+mean: +0.02   +0.04   +0.00   +0.00   +0.00   +0.00   +0.00   +0.00   
+std:  +0.99   +0.92   +0.00   +0.00   +0.00   +0.00   +0.00   +0.00   
+
+R.M.S. values of the residuals and momenta [mu] and [mrad] resp. 
+      RPhi          z      theta        phi     dpt/pt   dpt/pt^2 
+   2.10364    2.19926    0.04250    0.02336    0.00322    0.00003  
+
+Impact paramters [mu] 
+          2d    3d (abs) 
+mean:  -0.2322   3.1221
+std:    2.3269   1.7512
+
+
+Simulation successfully finished in 17.983 seconds!

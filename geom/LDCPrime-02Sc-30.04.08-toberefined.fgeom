@@ -1,0 +1,78 @@
+01 LiC Detector-Toy
+02 LDCPrime_02Sc lt. Frank Gaedes gear-file vom 11.04.08 und "LDC Silicon tracker elements" summary table, 30.04.08
+03 Version:                     240408
+04 Forward module 1
+05
+06 Number of layers          :  6
+07 Description (optional)    :
+08 Names of the layers (opt.):  FTD1,   FTD2,   FTD3,   ETD1,   ETD2,   ETD3
+09 z positions [mm]          :  220,    350,    500,    2368,   2368,   2368
+10 Inner radius [mm]         :  29,     32,     35,     305,    305,    305
+11 Outer radius [mm]         :  140,    210,    270,    1850,   1850,   1850
+12 Efficiency u              :  1,      1,      1,      1,      1,      1, 
+13 Efficiency v              : -1,     -1,     -1,      0,      0,      0 
+14 Angle 1st coord. (u) [Rad]:	0,      0,      0,      0,      pi/3,  -pi/3
+15 Angle 2nd coord. (v) [Rad]:	pi/2,   pi/2,   pi/2,   0,      0,      0
+16 Thickness [rad. lengths]  :  0.0058, 0.0058, 0.0058, 0.0069, 0.0069, 0.0069
+17 error distribution        :  0
+18 0 normal-sigma(u) [1e-6m] :  100,    100,    100,    7,      7,      7
+19          sigma(v) [1e-6m] :  7,      7,      7,      1000,   1000,   1000      
+20 1 uniform-d(u) [1e-6m]    :
+21           d(v) [1e-6m]    :
+22
+23 Forward module 2
+24
+25 Number of layers          :  5
+26 Description (optional)    :
+27 Names of the layers (opt.):  FTD4,   FTD5,   FTD6,   FTD7,   XTPCEP
+28 z positions [mm]          :  850,    1200,   1550,   1900,   2350
+29 Inner radius [mm]         :  51,     72,     93,     113,    305
+30 Outer radius [mm]         :  290,    290,    290,    290,    1800
+31 Efficiency u              :  1,      1,      1,      1,      0
+32 Efficiency v              :  1,      1,      1,      1,     -1  
+33 Angle 1st coord. (u) [Rad]:  0
+34 Angle 2nd coord. (v) [Rad]:  pi/2
+35 Thickness [rad. lengths]  :  0.0069, 0.0069, 0.0069, 0.0069, 0.15 
+36 error distribution        :  0
+37 0 normal-sigma(u) [1e-6m] :  1000
+38          sigma(v) [1e-6m] :  7
+39 1 uniform-d(u) [1e-6m]    :
+40           d(v) [1e-6m]    :
+41
+42 Rear module 1
+43
+44 Number of layers          : -1
+45 Description (optional)    :
+46 Names of the layers (opt.):
+47 z positions [mm]          :
+48 Inner radius [mm]         :
+49 Outer radius [mm]         :
+50 Efficiency u              :
+51 Efficiency v              :
+52 Angle 1st coord. (u) [Rad]:
+53 Angle 2nd coord. (v) [Rad]:
+54 Thickness [rad. lengths]  :
+55 error distribution        :
+56 0 normal-sigma(u) [1e-6m] :
+57          sigma(v) [1e-6m] :
+58 1 uniform-d(u) [1e-6m]    :
+59           d(v) [1e-6m]    :
+60
+61 Rear module 2
+62
+63 Number of layers          : -1
+64 Description (optional)    :
+65 Names of the layers (opt.):
+66 z positions [mm]          :
+67 Inner radius [mm]         :
+68 Outer radius [mm]         :
+69 Efficiency u              :
+70 Efficiency v              :
+71 Angle 1st coord. (u) [Rad]:
+72 Angle 2nd coord. (v) [Rad]:
+73 Thickness [rad. lengths]  :
+74 error distribution        :
+75 0 normal-sigma(u) [1e-6m] :
+76          sigma(v) [1e-6m] :
+77 1 uniform-d(u) [1e-6m]    :
+78           d(v) [1e-6m]    :

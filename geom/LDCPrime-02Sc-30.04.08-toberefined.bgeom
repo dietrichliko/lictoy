@@ -1,0 +1,79 @@
+01 LiC Detector-Toy (barrel)
+02 LDCPrime_02Sc lt. Frank Gaedes gear-file vom 11.04.08 und "LDC Silicon tracker elements" summary table, 30.04.08
+03 Version:                     270508
+04 Vertex Detector (VTX)
+05
+06 Number of layers             :   12
+07 Description (optional)       : |-Beamt.-|------------------------------------Vertex detector--------------------------------------------------------|
+08 Names of the layers (opt.)   :   XBT,     XVTX1,    VTX1,    XVTX2,    VTX2,    XVTX3,    VTX3,    XVTX4,     VTX4,    XVTX5,    VTX5,    XVTXShell
+09 Radii [mm]                   :   15,      15.866,   16       24.866    25,      36.866,   37,      47.866,    48,      59.866,   60,      65
+10 Upper limit in z [mm]        :   2400,    50,       50,      120,      120,     120,      120,     120,       120,     120,      120,     135
+11 Lower limit in z [mm]        :  -2400,   -50,      -50,     -120,     -120,    -120,     -120,    -120,      -120,    -120,     -120,    -135
+12 Efficiency RPhi              :   0,       0,        1,       0,        1,       0,        1,       0,         1,       0,        1,       0
+13 Efficiency 2nd coord. (eg. z):  -1
+14 Stereo angle alpha [Rad]     :   pi/2
+15 Thickness [rad. lengths]     :   0.0014,  0.000587, 0.00053, 0.000571, 0.00053, 0.000559, 0.00053, 0.000558,  0.00053, 0.000559, 0.00053, 0.0014
+16 error distribution           :   0
+17 0 normal-sigma(RPhi) [1e-6m] :   4
+18          sigma(z)    [1e-6m] :   4
+19 1 uniform-d(RPhi) [1e-6m]    :   
+20           d(z)    [1e-6m]    :   
+21
+22 Silicon Inner Tracker (SIT)
+23 
+24 Number of layers             :   5
+25 Description (optional)       : |-------------Inner tracker-------------|TPC inner wall|
+26 Names of the layers (opt.)   :   SIT1,     XSIT1,    SIT2,     XSIT2,      XTPCW
+27 Radii [mm]                   :   160.137,  160.775,  270.137,  270.775,    305
+28 Upper limit in z [mm]        :   380,      380,      660,      660,        2350
+29 Lower limit in z [mm]        :  -380,     -380,     -660,     -660,       -2350
+30 Efficiency RPhi              :   1,        0,        1,        0,          0
+31 Efficiency 2nd coord. (eg. z):   1,       -1,        1,       -1,         -1
+32 Stereo angle alpha [Rad]     :   pi/2
+33 Thickness [rad. lengths]     :   0.0029,   0.004,    0.0029,   0.004,      0.013
+34 error distribution           :   0
+35 0 normal-sigma(RPhi) [1e-6m] :   4
+36          sigma(z)    [1e-6m] :   50
+37 1 uniform-d(RPhi) [1e-6m]    :   
+38           d(z)    [1e-6m]    :   
+39
+40 Time Projection Chamber (TPC)
+41 sigma^2=sigma0^2+sigma1^2*sin(beta)^2+Cdiff^2*6mm/h*sin(theta)*Ldrift[m]
+42 Number of layers             :   227
+43 Radii [mm]                   :   371,1733
+44 Upper limit in z [mm]        :   2247.5
+45 Lower limit in z [mm]        :  -2247.5
+46 Efficiency RPhi              :   1
+47 Efficiency z                 :   1
+48 Thickness [rad. lengths]     :   5.7*1e-5
+49 sigma0(RPhi) [1e-6m]         :   50
+50 sigma1(RPhi) [1e-6m]         :   900
+51 Cdiff(RPhi)  [1e-6m/sqrt(m)] :   53
+52 sigma0(z)    [1e-6m]         :   20
+53 sigma1(z)    [1e-6m]         :   0
+54 Cdiff(z)     [1e-6m/sqrt(m)] :   800
+55
+56 Silicon External Tracker (SET)
+57
+58 Number of layers             :   3
+59 Description (optional)       : |TPC outer wall|-External Tracker-|
+60 Names of the layers (opt.)   :     XTPCW2,        SET1,   SET2
+61 Radii [mm]                   :     1800,          1850,   1855
+62 Upper limit in z [mm]        :     2350,          1500,   1500
+63 Lower limit in z [mm]        :    -2350,         -1500,  -1500
+64 Efficiency RPhi              :     0,             1,      1
+65 Efficiency 2nd coord. (eg. z):    -1,             1,      1
+66 Stereo angle alpha [Rad]     :     pi/2
+67 Thickness [rad. lengths]     :     0.02           0.0069, 0.0069
+68 error distribution           :     1
+69 0 normal-sigma(RPhi) [1e-6m] :
+70          sigma(z)    [1e-6m] :
+71 1 uniform-d(RPhi) [1e-6m]    :     7
+72           d(z)    [1e-6m]    :     100
+73
+74 Magnetic field and beam spot
+75 
+76 Solenoid magnetic field [T]  :   3.5
+77 Range in x [mm]              :  -0      0
+78 Range in y [mm]              :  -0      0
+79 Range in z [mm]              :  -0      0

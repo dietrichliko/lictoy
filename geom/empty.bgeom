@@ -1,0 +1,79 @@
+01 LiC Detector-Toy (barrel)
+02 Barrel Input sheet
+03 Version:                     
+04 Vertex Detector (VTX)
+05
+06 Number of layers             :  0
+07 Description (optional)       : 
+08 Names of the layers (opt.)   :   
+09 Radii [mm]                   :   
+10 Upper limit in z [mm]        :   
+11 Lower limit in z [mm]        :  
+12 Efficiency RPhi              :   
+13 Efficiency 2nd coord. (eg. z):  
+14 Stereo angle alpha [Rad]     :
+15 Thickness [rad. lengths]     :   
+16 error distribution           :
+17 0 normal-sigma(RPhi) [1e-6m] :
+18          sigma(z)    [1e-6m] :
+19 1 uniform-d(RPhi) [1e-6m]    :
+20           d(z)    [1e-6m]    :
+21
+22 Inner Tracker (SIT)
+23 
+24 Number of layers             :   0
+25 Description (optional)       :
+26 Names of the layers (opt.)   :
+27 Radii [mm]                   :
+28 Upper limit in z [mm]        :
+29 Lower limit in z [mm]        :
+30 Efficiency RPhi              :
+31 Efficiency 2nd coord.(eg. z) :
+32 Stereo angle alpha [Rad]     :
+33 Thickness [rad. lengths]     :
+34 error distribution           :
+35 0 normal-sigma(RPhi) [1e-6m] :
+36          sigma(z)    [1e-6m] :
+37 1 uniform-d(RPhi) [1e-6m]    :
+38           d(z)    [1e-6m]    :
+39
+40 Time Projection Chamber (TPC)
+41 sigma^2=sigma0^2+sigma1^2*sin(beta)^2+Cdiff^2*6mm/h*sin(theta)*Ldrift[m]
+42 Number of layers             :   0
+43 Radii [mm]                   :   
+44 Upper limit in z [mm]        :   
+45 Lower limit in z [mm]        :  
+46 Efficiency RPhi              :   
+47 Efficiency z                 :   
+48 Thickness [rad. lengths]     :   
+49 sigma0(RPhi) [1e-6m]         :   
+50 sigma1(RPhi) [1e-6m]         :   
+51 Cdiff(RPhi)  [1e-6m/sqrt(m)] :   
+52 sigma0(z)    [1e-6m]         :   
+53 sigma1(z)    [1e-6m]         :   
+54 Cdiff(z)     [1e-6m/sqrt(m)] :   
+55
+56 Silicon External Tracker (SET)
+57
+58 Number of layers             :   0
+59 Description (optional)       : 
+60 Names of the layers (opt.)   :   
+61 Radii [mm]                   :   
+62 Upper limit in z [mm]        :   
+63 Lower limit in z [mm]        :  
+64 Efficiency RPhi              :   
+65 Efficiency 2nd coord. (eg. z):   
+66 Stereo angle alpha [Rad]     :   
+67 Thickness [rad. lengths]     :   
+68 error distribution           :   
+69 0 normal-sigma(RPhi) [1e-6m] :
+70          sigma(z)    [1e-6m] :
+71 1 uniform-d(RPhi) [1e-6m]    :   
+72           d(z)    [1e-6m]    :   
+73
+74 Magnetic field and beam spot
+75 
+76 Solenoid magnetic field [T]  :   4
+77 Range in x [mm]              :   0     0
+78 Range in y [mm]              :   0     0
+79 Range in z [mm]              :   0     0

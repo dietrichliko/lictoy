@@ -1,0 +1,78 @@
+01 LiC Detector-Toy
+02 Forward Input sheet
+03 Version:                     
+04 Forward module 1
+05
+06 Number of layers:            0
+07 Description (optional):
+08 Names of the layers (opt.):
+09 z positions [mm]:            
+10 Inner radius [mm]:           
+11 Outer radius [mm]:           
+12 Efficiency 1st coord. (u):	
+13 Efficiency 2nd coord. (v):	
+14 Angle delta(u) [Rad]:        
+15 Angle delta(v) [Rad]:        
+16 Thickness [rad. lengths]:    
+17 error distribution:          
+18 0 normal-sigma(u) [1e-6m]:	
+19          sigma(v) [1e-6m]:	
+20 1 uniform-d(u) [1e-6m]:      
+21           d(v) [1e-6m]:      
+22
+23 Forward module 2
+24
+25 Number of layers:            0
+26 Description (optional):
+27 Names of the layers (opt.):
+28 z positions [mm]:            
+29 Inner radius [mm]:           
+30 Outer radius [mm]:           
+31 Efficiency 1st coord. (u):	
+32 Efficiency 2nd coord. (v):	
+33 Angle delta(u) [Rad]:        
+34 Angle delta(v) [Rad]:        
+35 Thickness [rad. lengths]:	
+36 error distribution:          
+37 0 normal-sigma(u) [1e-6m]:	
+38          sigma(v) [1e-6m]:	
+39 1 uniform-d(u) [1e-6m]:  	
+40           d(v) [1e-6m]:      
+41
+42 Rear module 1
+43
+44 Number of layers:            0
+45 Description (optional):
+46 Names of the layers (opt.):
+47 z positions [mm]:            
+48 Inner radius [mm]:           
+49 Outer radius [mm]:           
+50 Efficiency 1st coord. (u):   
+51 Efficiency 2nd coord. (v):	
+52 Angle delta(u) [Rad]:        
+53 Angle delta(v) [Rad]:        
+54 Thickness [rad. lengths]:	
+55 error distribution:          
+56 0 normal-sigma(u) [1e-6m]:	
+57          sigma(v) [1e-6m]:	
+58 1 uniform-d(u) [1e-6m]:  	
+59           d(v) [1e-6m]:      
+60
+61 Rear module 2
+62
+63 Number of layers:            0
+64 Description (optional):
+65 Names of the layers (opt.):
+66 z positions [mm]:            
+67 Inner radius [mm]:           
+68 Outer radius [mm]:           
+69 Efficiency 1st coord. (u):	
+70 Efficiency 2nd coord. (v):	
+71 Angle delta(u) [Rad]:        
+72 Angle delta(v) [Rad]:        
+73 Thickness [rad. lengths]:    
+74 error distribution:          
+75 0 normal-sigma(u) [1e-6m]:	
+76          sigma(v) [1e-6m]:	
+77 1 uniform-d(u) [1e-6m]:  	
+78           d(v) [1e-6m]:      

@@ -1,0 +1,78 @@
+01 LiC Detector Toy (forward)
+02 SiD Forward Exact
+03 Version:                     070807
+04 Forward module 1
+05
+06 Number of layers          :  14
+07 Description (optional)    : |---forward vertex det (pixels)---|-membr.bar-vertex-|----support membranes fwd-vertex---|-memb.BT-|--fwd inner dets (pixs)--|
+08 Names of the layers (opt.):  VXF1,    VXF2,    VXF3,    VXF4,    XS1,     XS2,     XS3,     XS4,     XS5,     XS6,     XS7,     PXF1,    PXF2,    PXF3,
+09 z positions [mm]          :  71.8,    90.2,    121.6,   170,     62.7,    63,      72.1,    90.5,    121.9,   170.3,   214,     206,     540.5,   831.5,
+10 Inner radius [mm]         :  14,      16,      18,      20,      14.4,    14.4,    13.95,   15.95,   17.95,   19.95,	  18.5792, 27.8,    75.1,    116.5,
+11 Outer radius [mm]         :  71,      71,      71,      71,      71.6,    168.7,   168.7,   168.7,   168.7,   168.7,	  166.7,   166.7,   166.7,   166.7,
+12 Efficiency u              :  0.95,    0.95,    0.95,    0.95,    0,       0,       0,       0,       0,       0,	  0,	   0.95,    0.95,    0.95,
+13 Efficiency v              : -1
+14 Angle 1st coord. (u) [Rad]:  0
+15 Angle 2nd coord. (v) [Rad]:  pi/2
+16 Thickness [rad. lengths]  :  0.00148, 0.00148, 0.00148, 0.00148, 0.00108, 0.00108, 0.00108, 0.00108, 0.00108, 0.00108, 0.00108, 0.00458, 0.00458, 0.00458
+17 error distribution        :  1
+18 0 normal-sigma(u) [1e-6m] :
+19          sigma(v) [1e-6m] :
+20 1 uniform-d(u) [1e-6m]    :  20
+21           d(v) [1e-6m]    :  20
+22
+23 Forward module 2
+24
+25 Number of layers          :  10
+26 Description (optional)    : |-fwd. box walls--|-fwd outer det (tracker,d-strips)-|-supporting rings for bar-tracker-|
+27 Names of the layers (opt.):  XB3,     XB4,     TRF1,    TRF2,    TRF3,    TRF4,    XR1,     XR2,    XR3,    XR4,
+28 z positions [mm]          :  868.8,   894.3,   857,     1116,    1380,    1638,    570,     836,    1095,   1359,
+29 Inner radius [mm]         :  48,      49.1,    207,     207,     207,     207,     215,     465,    715,    965,
+30 Outer radius [mm]         :  168.7,   168.7,   494,     747,     999,     1250,    456,     706,    956,    1206,
+31 Efficiency u              :  0,       0,       0.95,    0.95,    0.95,    0.95,    0,       0,      0,      0,
+32 Efficiency v              :  0,       0,       0.95,    0.95,    0.95,    0.95,    0,       0,      0,      0,
+33 Angle 1st coord. (u) [Rad]:  0
+34 Angle 2nd coord. (v) [Rad]:  pi/2
+35 Thickness [rad. lengths]  :  0.00152, 0.00152, 0.00458, 0.00458, 0.00458, 0.00458, 0.0003,  0.0003, 0.0003, 0.0003,
+36 error distribution        :  1
+37 0 normal-sigma(u) [1e-6m] :
+38          sigma(v) [1e-6m] :
+39 1 uniform-d(u) [1e-6m]    :  50
+40           d(v) [1e-6m]    :  50
+41
+42 Rear module 1
+43
+44 Number of layers          : -1
+45 Description (optional)    :
+46 Names of the layers (opt.):
+47 z positions [mm]          :
+48 Inner radius [mm]         :
+49 Outer radius [mm]         :
+50 Efficiency u              :
+51 Efficiency v              :
+52 Angle 1st coord. (u) [Rad]:
+53 Angle 2nd coord. (v) [Rad]:
+54 Thickness [rad. lengths]  :
+55 error distribution        :
+56 0 normal-sigma(u) [1e-6m] :
+57          sigma(v) [1e-6m] :
+58 1 uniform-d(u) [1e-6m]    :
+59           d(v) [1e-6m]    :
+60
+61 Rear module 2
+62
+63 Number of layers          : -1
+64 Description (optional)    :
+65 Names of the layers (opt.):
+66 z positions [mm]          :
+67 Inner radius [mm]         :
+68 Outer radius [mm]         :
+69 Efficiency u              :
+70 Efficiency v              :
+71 Angle 1st coord. (u) [Rad]:
+72 Angle 2nd coord. (v) [Rad]:
+73 Thickness [rad. lengths]  :
+74 error distribution        :
+75 0 normal-sigma(u) [1e-6m] :
+76          sigma(v) [1e-6m] :
+77 1 uniform-d(u) [1e-6m]    :
+78           d(v) [1e-6m]    :
